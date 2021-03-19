@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: "Roboto", sans-serif;
+}
+/* HEADER */
+header .content {
+    width: 85%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+header .navbar-brand img{
+width: 100px;
+}
+
+header ul li a{
+    color: rgb(43, 28, 28);
+    text-decoration: none;
+    margin:0 10px;
+}
+header .item_left li:hover a{
+    border-bottom: 2px solid tomato ;
+    color: tomato;
+}
+header .item_right .item1 a{
+    color: #fec8da;
+}
+header ul .item1:hover {
+    color: firebrick;
+    box-shadow: 0 0 3px firebrick;
+}
+header .item_right .item1{
+    background-color: firebrick;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+header .item_right .item1 a{
+    color: white;
+}
+header .item_right li:hover a{
+    border-bottom: none;
+}
+header .item_right .item2{
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+header .item_right .item2:hover{
+    background-color: firebrick;
+}
+header .item_right .item2:hover a{
+    color: white;
+}
+header .item_right .item3 i{
+font-size: 18px;
+}
+header .item_right .item3:hover i{
+    color: black;
+}
+
+
+
+/* CAROUSEL */
+#carousel .content{
+    
+}
+#carousel img{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+#carousel .content .text{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+    text-align: center;
+}
+#carousel .content .text h1{
+    font-size: 70px;
+}
+#carousel .content .text p{
+    font-size: 20px;
+}
+#carousel .content1 p{
+    text-align: center;
+}
+
+
+/* COURSES */
+#courses .content{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+#courses .content .content_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+#courses .content .content_left .text h1{
+font-size: 40px;
+}
+#courses .content .content_left .text p{
+    font-size: 15px;
+}
+#courses .content_right ul{
+    border: none;
+}
+#courses .content_right ul li a.active{
+    border-radius: 20px;
+    border: 1px solid tomato;
+    color: tomato;
+    margin: 0 5px;
+}
+#courses .content_right ul li:hover a{
+    border-radius: 20px;
+    border: 1px solid tomato;
+    color: tomato;
+}
+#courses .content_right .card{
+    margin: 0 5px;
+}
+#courses .content_right .card .card-body{
+    border-bottom: 1px solid grey;
+    padding: 1.15rem;
+}
+#courses .content_right .card .card-body .card-text{
+    font-size: 14px;
+}
+#courses .content_right .card .card-body .star{
+    color: #f2c94c;
+    font-size: 13px;
+
+}
+#courses .content_right .card .card-body .star i{
+    padding: 0 1px;
+}
+#courses .content_right .card .card-body .star p{
+    font-size: 13px;
+    color: black;
+    margin-left: 6px;
+}
+#courses .content_right .card .text1{
+    justify-content: space-around;
+   margin-top: 8px;
+    font-size: 15px;
+}
+@media screen and (max-width:985px){
+    #courses .content{
+        display: none;
+    }
+}
+@media screen and (min-width:985px){
+    #courses .res{
+        display: none;
+    }
+}
+
+#courses .res {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+#courses .res .intro .text{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#courses .res .intro ul{
+    border: none;
+    margin-bottom: 20px;
+}
+#courses .res .intro ul li a.active{
+    border-radius: 20px;
+    border: 1px solid tomato;
+    color: tomato;
+    margin: 0 5px;
+}
+#courses .res .intro ul li:hover a{
+    border-radius: 20px;
+    border: 1px solid tomato;
+    color: tomato;
+}
+#courses .res .card {
+    padding: 10px;
+    border: none;
+}
+#courses .res .card-body .card-text{
+    font-size: 14px;
+}
+#courses .res .card-body .star{
+    color: #f2c94c;
+    font-size: 13px;
+}
+
+#courses .res .card-body .star p{
+    font-size: 13px;
+    color: black;
+    margin-left: 6px;
+}
+#courses .res  .text1{
+    justify-content: space-around;
+     font-size: 15px;
+}
+#courses .res  .text1 p{
+    padding-top: 10px;
+}
+#courses .res .card_item{
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+}
