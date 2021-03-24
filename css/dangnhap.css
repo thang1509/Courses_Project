@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header .content {
+  width: 85%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+header .navbar-brand .img {
+  width: 100px;
+}
+
+header .collapse .navbar-nav .nav-item {
+  marker: none;
+}
+
+header .collapse .navbar-nav .nav-item a {
+  color: #2b1c1c;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header .item_left li:hover a {
+  border-bottom: 2px solid tomato;
+  color: tomato;
+}
+
+header .item_right .item1 {
+  background-color: firebrick;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+header .item_right .item1 .nav-link span {
+  color: white;
+}
+
+header .item_right .item1:hover {
+  color: firebrick;
+  box-shadow: 0 0 3px firebrick;
+}
+
+header .item_right li:hover a {
+  border-bottom: none;
+}
+
+header .item_right .item2 {
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+
+header .item_right .item2:hover {
+  background-color: firebrick;
+}
+
+header .item_right .item2:hover a {
+  color: white;
+}
+
+header .item_right .item3 i {
+  font-size: 18px;
+}
+
+header .item_right .item3:hover i {
+  color: black;
+}
+
+header .col-7, header .col-5 {
+  padding: 0;
+}
+
+@media screen and (max-width: 991px) {
+  header .item_left .nav-item:hover .nav-link {
+    border-bottom: none;
+    color: tomato;
+  }
+  header .item_right .item1 {
+    background-color: white;
+  }
+  header .item_right .item1:hover {
+    box-shadow: none;
+  }
+  header .item_right .item1 .nav-link {
+    border-radius: 0;
+    background-color: white;
+  }
+  header .item_right .item1 .nav-link:hover {
+    box-shadow: none;
+    border: none;
+  }
+  header .item_right .item1 .nav-link:hover span {
+    color: tomato;
+  }
+  header .item_right .item1 .nav-link span {
+    color: black;
+  }
+  header .item_right .item2 {
+    background-color: white;
+  }
+  header .item_right .item2:hover {
+    background-color: white;
+  }
+  header .item_right .item2:hover span {
+    color: tomato;
+  }
+  header .item_right .item3 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=dangnhap.css.map */

@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    .content {
+        width: 85%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .navbar-brand {
+        .img {
+            width: 100px;
+        }
+    }
+    .collapse {
+       
+        .navbar-nav {
+        
+           .nav-item {
+                marker: none;
+                a {
+                    color: rgb(43, 28, 28);
+                    text-decoration: none;
+                    margin: 0 10px;
+                  
+                }
+            }
+        }
+    }
+
+    .item_left li {
+        &:hover {
+            a {
+                border-bottom: 2px solid tomato;
+                color: tomato;
+
+            }
+        }
+    }
+    .item_right {
+        .item1 {
+            background-color: firebrick;
+            border-radius: 20px;
+            margin-right: 5px;
+            .nav-link {
+                span{
+                    color: white;
+                }
+                
+            }
+            &:hover {
+                color: firebrick;
+                box-shadow: 0 0 3px firebrick;
+            }
+        }
+        li {
+            &:hover {
+                a {
+                    border-bottom: none;
+                }
+            }
+        }
+        .item2 {
+            background-color: gainsboro;
+            border-radius: 20px;
+            &:hover{
+                background-color: firebrick;
+                a{
+                    color: white;
+                }
+            }
+        }
+        .item3{
+            i{
+                font-size: 18px;
+            }
+            &:hover{
+                i{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:991px){
+    header{
+    .item_left{
+        .nav-item{
+            &:hover{
+                .nav-link{
+                    border-bottom: none;
+                    color: tomato;
+                }
+            }
+        }
+    }
+    .item_right{
+        .item1{
+            &:hover{
+                box-shadow: none;
+            }
+            background-color: white;
+            .nav-link{
+                border-radius: 0;
+                background-color: white;
+                &:hover{
+                    box-shadow: none;
+                    border: none;
+                    span{
+                        color: tomato;
+                    }
+                   
+                }
+               span{
+                color: black;
+               }
+              
+                   
+    
+               }
+    
+            }
+            .item2{
+                background-color: white;
+               &:hover{
+                   background-color: white;
+                   span{
+                    color: tomato;
+                   }
+               }
+        }
+        .item3{
+            display: none;
+        }
+    }
+    }
+    }
