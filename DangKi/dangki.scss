@@ -9,6 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 header {
+    
     .content {
         width: 85%;
         margin: auto;
@@ -143,3 +144,10 @@ header {
     }
     }
     }
+    @media screen and (min-width:991px){
+        .d-flex{
+            a{
+                display: none;
+            }
+        }
+      }

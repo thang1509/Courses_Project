@@ -113,4 +113,10 @@ header .item_right .item3:hover i {
     display: none;
   }
 }
+
+@media screen and (min-width: 991px) {
+  .d-flex a {
+    display: none;
+  }
+}
 /*# sourceMappingURL=dangki.css.map */

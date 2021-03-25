@@ -117,4 +117,10 @@ header .col-7, header .col-5 {
     display: none;
   }
 }
+
+@media screen and (min-width: 991px) {
+  .d-flex a {
+    display: none;
+  }
+}
 /*# sourceMappingURL=dangnhap.css.map */
