@@ -14,150 +14,286 @@ header .content {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-header .navbar-brand img{
-width: 100px;
+header .navbar-brand img {
+    width: 100px;
 }
 
-header ul li a{
+header .col-7 li a {
+    position: relative;
     color: rgb(43, 28, 28);
     text-decoration: none;
-    margin:0 10px;
+    margin: 0 10px;
+    transition: all 0.3s;
 }
-header .item_left li:hover a{
-    border-bottom: 2px solid tomato ;
+header .col-7 li a::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    background-color: transparent;
+}
+header .item_left li:hover a {
     color: tomato;
 }
-header .item_right .item1 a{
+header .item_left li:hover a::after {
+    background-color: tomato;
+}
+header .item_right .item1 a {
     color: #fec8da;
 }
 header ul .item1:hover {
     color: firebrick;
     box-shadow: 0 0 3px firebrick;
 }
-header .item_right .item1{
+header .item_right {
+    justify-content: flex-end;
+}
+header .item_right .item1 {
     background-color: firebrick;
     border-radius: 20px;
     margin-right: 5px;
 }
-header .item_right .item1 a{
+header .item_right .item1 a {
     color: white;
 }
-header .item_right li:hover a{
+header .item_right .item2 a {
+    color: #334d6e;
+}
+header .item_right .item3 a {
+    color: #334d6e;
+}
+header .item_right li:hover a {
     border-bottom: none;
 }
-header .item_right .item2{
+header .item_right .item2 {
     background-color: gainsboro;
     border-radius: 20px;
+    transition: all 0.3s;
 }
-header .item_right .item2:hover{
+header .item_right .item2:hover {
     background-color: firebrick;
 }
-header .item_right .item2:hover a{
+header .item_right .item2:hover a {
     color: white;
 }
-header .item_right .item3 i{
-font-size: 18px;
+header .item_right .item3 i {
+    font-size: 18px;
 }
-header .item_right .item3:hover i{
+header .item_right .item3:hover i {
     color: black;
 }
+@media screen and (max-width: 991px) {
+    header .item_left .nav-item:hover .nav-link {
+      border-bottom: none;
+      color: tomato;
+    }
+    header .item_right .item1 {
+      background-color: white;
+    }
+    header .item_right .item1:hover {
+      box-shadow: none;
+    }
+    header .item_right .item1 .nav-link {
+      border-radius: 0;
+      background-color: white;
+    }
+    header .item_right .item1 .nav-link:hover {
+      box-shadow: none;
+      border: none;
+    }
+    header .item_right .item1 .nav-link:hover span {
+      color: tomato;
+    }
+    header .item_right .item1 .nav-link span {
+      color: black;
+    }
+    header .item_right .item2 {
+      background-color: white;
+    }
+    header .item_right .item2:hover {
+      background-color: white;
+    }
+    header .item_right .item2:hover span {
+      color: tomato;
+    }
+    header .item_right .item3 {
+      display: none;
+    }
+    header .col-7 li a{
+        margin: 0;
+    }
+    header .col-7 li a::after{
+        display: none;
+    }
+    header .item_right .item1 a{
+        color: black;
+        transition: all .3s;
+    }
+    header .item_right .item1 a:hover{
+        color: tomato;
 
+    }
+    header .item_right .item2:hover a{
+        color: tomato;
+        transition: all .3s;
+    }
+    .navbar-nav{
+        margin-left: 50%;
+    }
+  }
 
+  @media screen and (min-width: 991px) {
+    .d-flex a {
+      display: none;
+    }
+  }
 /* CAROUSEL */
-#carousel .content{
-    
+#carousel .img {
+    position: relative;
 }
-#carousel img{
+#carousel img {
     width: 100%;
     height: 500px;
     background-size: cover;
-    position: relative;
 }
-#carousel .content .text{
+#carousel .content .text {
     position: absolute;
-    top: 40%;
-    left: 35%;
+    top: 50%;
+    left: 50%;
     color: white;
     text-align: center;
+    transform: translate(-50%, -50%);
 }
-#carousel .content .text h1{
+#carousel .content .text h1 {
     font-size: 70px;
 }
-#carousel .content .text p{
+#carousel .content .text p {
     font-size: 20px;
 }
-#carousel .content1 p{
+#carousel .carousel_bottom {
+    min-height: 100px;
+    box-shadow: 0 3px 6px #e2e2e2;
+}
+#carousel .content1 {
     text-align: center;
+    padding-top: 25px;
+}
+#carousel .content1 p {
+    text-align: left;
 }
 
+@media screen and (max-width: 1300px) {
+    #carousel img {
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    #carousel .content .img .text h1 {
+        font-size: 50px;
+    }
+    #carousel .content .img .text p {
+        font-size: 13px;
+    }
+}
 
 /* COURSES */
-#courses .content{
+#courses {
+    background-image: url(./img/bg-course-category.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#courses .content {
     width: 85%;
     margin: auto;
     margin-top: 30px;
 }
-#courses .content .content_left{
+#courses .content .content_left {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
 }
-#courses .content .content_left .text h1{
-font-size: 40px;
+#courses .content .content_left .text h1 {
+    font-size: 40px;
 }
-#courses .content .content_left .text p{
+#courses .content .content_left .text p {
     font-size: 15px;
 }
-#courses .content_right ul{
+#courses .tab-pane {
+    position: relative;
+}
+#courses .content_right ul {
     border: none;
 }
-#courses .content_right ul li a.active{
+#courses .content_right a {
+    color: black;
+}
+#courses .content_right ul li a.active {
     border-radius: 20px;
     border: 1px solid tomato;
     color: tomato;
     margin: 0 5px;
 }
-#courses .content_right ul li:hover a{
+#courses .content_right ul li:hover a {
     border-radius: 20px;
     border: 1px solid tomato;
     color: tomato;
 }
-#courses .content_right .card{
-    margin: 0 5px;
+#courses .content_right li {
+    margin-right: 20px;
 }
-#courses .content_right .card .card-body{
-    border-bottom: 1px solid grey;
+#courses .content_right .card {
+    margin: 10px;
+    border-color: #d8e9ff;
+    box-shadow: 0 4px 12px #dde1ee;
+}
+#courses .content_right .card .card-body {
+    border-bottom: 1px solid #d8e9ff;
     padding: 1.15rem;
 }
-#courses .content_right .card .card-body .card-text{
+#courses .content_right .card .card-body .card-text {
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    color: black;
 }
-#courses .content_right .card .card-body .star{
+#courses .content_right a {
+    text-decoration: none;
+}
+#courses .content_right .card .card-body .star {
     color: #f2c94c;
     font-size: 13px;
-
 }
-#courses .content_right .card .card-body .star i{
+#courses .content_right .card .card-body .star i {
     padding: 0 1px;
 }
-#courses .content_right .card .card-body .star p{
+#courses .content_right .card .card-body .star p {
     font-size: 13px;
     color: black;
     margin-left: 6px;
 }
-#courses .content_right .card .text1{
+#courses .content_right .card .text1 {
     justify-content: space-around;
-   margin-top: 8px;
+    margin-top: 8px;
     font-size: 15px;
+    color: black;
 }
-@media screen and (max-width:985px){
-    #courses .content{
+@media screen and (max-width: 985px) {
+    #courses .content {
         display: none;
     }
+    #carousel {
+        background-image: none;
+    }
 }
-@media screen and (min-width:985px){
-    #courses .res{
+@media screen and (min-width: 985px) {
+    #courses .res {
         display: none;
     }
 }
@@ -167,24 +303,24 @@ font-size: 40px;
     margin: auto;
     margin-top: 30px;
 }
-#courses .res .intro .text{
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
+#courses .res .intro .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#courses .res .intro ul{
+#courses .res .intro ul {
     border: none;
     margin-bottom: 20px;
 }
-#courses .res .intro ul li a.active{
+#courses .res .intro ul li a.active {
     border-radius: 20px;
     border: 1px solid tomato;
     color: tomato;
     margin: 0 5px;
 }
-#courses .res .intro ul li:hover a{
+#courses .res .intro ul li:hover a {
     border-radius: 20px;
     border: 1px solid tomato;
     color: tomato;
@@ -193,78 +329,103 @@ text-align: center;
     padding: 10px;
     border: none;
 }
-#courses .res .card-body .card-text{
+#courses .res .card-body .card-text {
     font-size: 14px;
 }
-#courses .res .card-body .star{
+#courses .res .card-body .star {
     color: #f2c94c;
     font-size: 13px;
 }
 
-#courses .res .card-body .star p{
+#courses .res .card-body .star p {
     font-size: 13px;
     color: black;
     margin-left: 6px;
 }
-#courses .res  .text1{
+#courses .res .text1 {
     justify-content: space-around;
-     font-size: 15px;
+    font-size: 15px;
 }
-#courses .res  .text1 p{
+#courses .res .text1 p {
     padding-top: 10px;
 }
-#courses .res .card_item{
+#courses .res .card_item {
     box-shadow: 0 0 5px gray;
     border-radius: 5px;
 }
 
+.owl-prev {
+    position: absolute;
+    top: 145px;
+    left: -20px;
+}
+.owl-next {
+    position: absolute;
+    top: 145px;
+    right: -20px;
+}
+.owl-next span {
+    font-size: 3rem;
+}
+.owl-prev span {
+    font-size: 3rem;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+    background-color: white;
+    color: black;
+}
 /* FEEDBACK */
-#feedback{
+#feedback {
     margin-top: 30px;
     background: linear-gradient(to right, #521822, #ec5252);
     padding: 20px 0;
 }
-#feedback .content h1{
+#feedback .content h1 {
     text-align: center;
     color: white;
 }
-#feedback .content{
+#feedback .content {
     width: 85%;
     margin: auto;
- 
 }
-#feedback .content .card{
-    box-shadow: 4px 0px 12px #dde1ee;
+#feedback .content .card {
+    box-shadow: 4px 0px 8px #dde1ee;
     border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
 }
-#feedback .content .card i{
+#feedback .content .card i {
     padding: 5px;
     border-radius: 50%;
     border: 1px solid black;
     background-color: gray;
 }
-#feedback .content .card .card-body{
+#feedback .content .card .card-body {
     padding: 40px 1.25rem;
     padding-bottom: 60px;
 }
 
 /* FOOTER */
-#footer{
+#footer {
     padding: 30px 0;
-    background: #eaf8fc;
+    background: black;
 }
-#footer .content{
+#footer .content {
     width: 85%;
     margin: auto;
 }
-#footer a{
-    color: black;
+#footer a {
+    color: white;
     text-decoration: none;
+    transition: all 0.3s;
 }
-#footer p:hover a{
-    color: cornflowerblue;
+#footer p:hover a {
+    color: #fca400;
 }
-#footer i{
+#footer i {
     font-size: 2rem;
     color: rebeccapurple;
+}
+#footer p {
+    color: white;
 }
