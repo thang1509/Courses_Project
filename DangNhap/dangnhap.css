@@ -9,6 +9,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* HEADER  */
+header {
+  box-shadow: 0 1px 8px rgba(89, 120, 150, 0.2);
+  padding: 1px 0;
+}
 header .content {
   width: 85%;
   margin: auto;
@@ -29,7 +34,7 @@ header .col-7 li a {
 header .col-7 li a::after {
   content: "";
   width: 100%;
-  height: 3px;
+  height: 2px;
   position: absolute;
   bottom: -29px;
   left: 0;
