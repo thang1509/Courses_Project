@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+
+#video_courses img{
+  width: 100%;
+}
+
+#video_courses h2{
+  color: white;
+  font-size: 1rem;
+}
+#video_courses .content .left p{
+  color: whitesmoke;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+#video_courses .content .left .text{
+  display: flex;
+  justify-content: space-between;
+}
+#video_courses .content .left{
+  background-color: black;
+}
+#video_courses .content .left i{
+  color: white;
+  font-size: 2rem;
+  opacity: 0.8;
+}
+#video_courses .content .left i:hover{
+  color: #d91b5c;
+}
+#video_courses .left .img{
+  position: relative;
+}
+#video_courses .left .content-item .img i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 3.5rem;
+  opacity: 0.8;
+}
+#video_courses .left .content-item .img:hover i{
+  color: red;
+  opacity: 1;
+}
+#video_courses .right .content-item{
+  border-right: 1px solid gray;
+}
+#video_courses .right .content-item .item1 .text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+#video_courses p{
+  margin-bottom: 0px;
+}
+#video_courses .right .item1 .text i{
+  font-size: 2rem;
+  margin-right: 10px;
+}
+#video_courses .right .content-item .item1.text .textP p{
+  margin-bottom: 0px;
+}
+#video_courses .right .content-item .item1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+  padding-right: 20px;
+}
+.col-8,.col-4{
+  padding: 0px;
+}
+#video_courses .right .item2 .p2{
+  padding: .375rem .75rem;
+  line-height: 0px;
+  margin-bottom: 5px;
+}
+#video_courses .right .item2 .dropdown{
+  border-bottom: 1px solid gray ;
+  position: relative;
+}
+.dropdown-toggle::after{
+  margin-left: 8.255rem;
+}
+#video_courses .right .dropdown-menu {
+  border: none;
+  position: absolute;
+  will-change: transform;
+  top: 16px;
+  left: 0px;
+  transform: translate3d(0px, 38px, 0px);
+  margin-top: 18px;
+}

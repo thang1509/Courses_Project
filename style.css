@@ -35,23 +35,23 @@ header .col-7 li a::after {
     background-color: transparent;
 }
 header .item_left li:hover a {
-    color: tomato;
+    color: #fca400;
 }
 header .item_left li:hover a::after {
-    background-color: tomato;
+    background-color: #fca400;
 }
 header .item_right .item1 a {
-    color: #fec8da;
+    color: #fca400;
 }
 header ul .item1:hover {
-    color: firebrick;
-    box-shadow: 0 0 3px firebrick;
+    color: #fca400;
+    box-shadow: 0 0 3px #fca400;
 }
 header .item_right {
     justify-content: flex-end;
 }
 header .item_right .item1 {
-    background-color: firebrick;
+    background-color: #fca400;
     border-radius: 20px;
     margin-right: 5px;
 }
@@ -73,7 +73,7 @@ header .item_right .item2 {
     transition: all 0.3s;
 }
 header .item_right .item2:hover {
-    background-color: firebrick;
+    background-color: #fca400;
 }
 header .item_right .item2:hover a {
     color: white;
@@ -87,7 +87,7 @@ header .item_right .item3:hover i {
 @media screen and (max-width: 991px) {
     header .item_left .nav-item:hover .nav-link {
       border-bottom: none;
-      color: tomato;
+      color: #fca400;
     }
     header .item_right .item1 {
       background-color: white;
@@ -104,7 +104,7 @@ header .item_right .item3:hover i {
       border: none;
     }
     header .item_right .item1 .nav-link:hover span {
-      color: tomato;
+      color: #fca400;
     }
     header .item_right .item1 .nav-link span {
       color: black;
@@ -116,7 +116,7 @@ header .item_right .item3:hover i {
       background-color: white;
     }
     header .item_right .item2:hover span {
-      color: tomato;
+      color: #fca400;
     }
     header .item_right .item3 {
       display: none;
@@ -132,11 +132,11 @@ header .item_right .item3:hover i {
         transition: all .3s;
     }
     header .item_right .item1 a:hover{
-        color: tomato;
+        color: #fca400;
 
     }
     header .item_right .item2:hover a{
-        color: tomato;
+        color: #fca400;
         transition: all .3s;
     }
     .navbar-nav{
@@ -233,14 +233,14 @@ header .item_right .item3:hover i {
 }
 #courses .content_right ul li a.active {
     border-radius: 20px;
-    border: 1px solid tomato;
-    color: tomato;
+    border: 1px solid #fca400;
+    color: #fca400;
     margin: 0 5px;
 }
 #courses .content_right ul li:hover a {
     border-radius: 20px;
-    border: 1px solid tomato;
-    color: tomato;
+    border: 1px solid #fca400;
+    color: #fca400;
 }
 #courses .content_right li {
     margin-right: 20px;
@@ -316,14 +316,14 @@ header .item_right .item3:hover i {
 }
 #courses .res .intro ul li a.active {
     border-radius: 20px;
-    border: 1px solid tomato;
-    color: tomato;
+    border: 1px solid #fca400;
+    color: #fca400;
     margin: 0 5px;
 }
 #courses .res .intro ul li:hover a {
     border-radius: 20px;
-    border: 1px solid tomato;
-    color: tomato;
+    border: 1px solid #fca400;
+    color: #fca400;
 }
 #courses .res .card {
     padding: 10px;
@@ -377,7 +377,7 @@ header .item_right .item3:hover i {
 /* FEEDBACK */
 #feedback {
     margin-top: 30px;
-    background: linear-gradient(to right, #521822, #ec5252);
+    background: linear-gradient(to right, #fca400, #fac25a);
     padding: 20px 0;
 }
 #feedback .content h1 {
@@ -393,6 +393,7 @@ header .item_right .item3:hover i {
     border-radius: 10px;
     padding: 10px;
     margin: 0 10px;
+    margin-bottom: 10px;
 }
 #feedback .content .card i {
     padding: 5px;
@@ -404,7 +405,28 @@ header .item_right .item3:hover i {
     padding: 40px 1.25rem;
     padding-bottom: 60px;
 }
-
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: none;
+}
+/* CORP */
+#corp{
+    margin: 50px 0;
+}
+#corp h1{
+    font-weight: bold;
+}
+#corp .content .corp img{
+    width: 200px;
+}
+#corp .content .corp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#corp .content h1{
+    font-size: 2rem;
+    text-align: center;
+}
 /* FOOTER */
 #footer {
     padding: 30px 0;
