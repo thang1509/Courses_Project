@@ -17,6 +17,9 @@
   color: white;
   font-size: 1rem;
 }
+#video_courses .content {
+  overflow: hidden;
+}
 #video_courses .content .left p{
   color: whitesmoke;
   opacity: 0.8;
@@ -87,6 +90,10 @@
   padding: .375rem .75rem;
   line-height: 0px;
   margin-bottom: 5px;
+}
+#scroll {
+overflow-y: scroll;
+height: 500px;
 }
 /* #video_courses .right .item2 .dropdown{
   border-bottom: 1px solid gray ;
