@@ -46,6 +46,10 @@
   #comment .content-list .item1 .text p:first-child{
     font-weight: bold;
   }
+  #comment .content-list .item1 .text p{
+    opacity: 0.8;
+  }
+
   #comment .content-list .item1 .text span{
     opacity: 0.8;
     font-weight: 500;
@@ -66,4 +70,10 @@
  #comment .content-list .input-group img{
    width: 50px;
    margin-right: 10px;
+ }
+ .respon{
+   margin-top: 20px;
+ }
+ .respon img{
+border-radius: 50%;
  }
