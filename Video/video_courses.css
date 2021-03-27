@@ -80,7 +80,7 @@
   box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
   padding-right: 20px;
 }
-.col-8,.col-4{
+.col-lg-8,.col-lg-4{
   padding: 0px;
 }
 #video_courses .right .item2 .p2{
@@ -88,7 +88,7 @@
   line-height: 0px;
   margin-bottom: 5px;
 }
-#video_courses .right .item2 .dropdown{
+/* #video_courses .right .item2 .dropdown{
   border-bottom: 1px solid gray ;
   position: relative;
 }
@@ -103,4 +103,36 @@
   left: 0px;
   transform: translate3d(0px, 38px, 0px);
   margin-top: 18px;
+} */
+.btn.focus, .btn:focus{
+  box-shadow: none;
+}
+#video_courses .right .item2 .btn{
+  background: #f4f4f4;
+  display: block;
+  border-radius: 0%;
+  text-align: left;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  font-size: 0.9rem;
+}
+#video_courses .right .item2 .btn i{
+  margin-left: 25%;
+}
+#video_courses .right .item2 .collapse a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+#video_courses .right .item2 .collapse a:hover{
+  background: #ffe6ee;
+}
+@media screen and (max-width:991px){
+  #video_courses .right .item2 .btn i{
+    margin-left: 90%;
+  }
+  #video_courses {
+    width: 100%;
+  }
 }

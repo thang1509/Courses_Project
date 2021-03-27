@@ -8,3 +8,47 @@
   body {
     font-family: "Roboto", sans-serif;
   }
+
+  #feedback{
+    /* width: calc(177.77778vh - 400px);
+    max-width: calc(100vw - (100vw - 100%)/2 - 400px);
+    min-width: 624px; */
+    margin: 50px 0;
+  }
+  #feedback .content{
+    background: #f9f9f9;
+    padding: 20px 10px;
+    width: 80%;
+    /* margin-left: 22%; */
+  }
+  #feedback .content .item-content{
+    display: flex;
+align-items: center;
+  }
+  #feedback .content .item-content i{
+    margin-right: 10px;
+    color: rgb(83, 83, 248);
+  }
+  #feedback .content {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  #feedback .content  .star{
+    color: rgb(238, 238, 51);
+    margin-right: 100px;
+  }
+  @media screen and (max-width:800px){
+    #feedback .content{
+      display: block;
+    }
+    #feedback .content .item-content{
+      justify-content: center;
+    }
+    #feedback .content .star{
+      display: flex;
+      justify-content: center;
+      margin-right: 0;
+    }
+  }

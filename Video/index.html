@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./video_courses.css" />
   <link rel="stylesheet" href="./header.css" />
   <link rel="stylesheet" href="./comment.css" />
@@ -25,9 +26,9 @@
 <body>
   <header></header>
   <section id="video_courses">
-    <div class="content container">
+    <div class="content container-lg">
       <div class="row">
-        <div class="left col-8 p-5">
+        <div class="left col-12 col-lg-8 p-5">
           <div class="content-item">
             <div class="text">
               <div class="text1">
@@ -48,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div class="right col-4">
+        <div class="right col-12 col-lg-4">
           <div class="content-item">
             <div class="item1">
               <div class="text">
@@ -60,139 +61,320 @@
               </div>
               <i class="fa fa-times"></i>
             </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
+            <div id="scroll" data-spy="scroll" data-target="scroll" data-offset="0">
+              <div class="item2" >
+                  <a class="btn " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Chương 0: Hướng dẫn chung
+                    <i class="fa fa-angle-down"></i>
+                    <p class="text-left">4 / 4 | 9 phút</p>
+                  </a>
+                <div class="collapse" id="collapseExample">
+                  <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+                  <a href="">2. Lộ trình học tập</a>
+                  <a href="">3. Hướng dẫn giải nén tài liệu</a>
+                  <a href="">4. Tham gia nhóm học tập trên Facebook</a>
                 </div>
+              </div>
+              <div class="item2" >
+                <a class="btn " data-toggle="collapse" href="#collapse" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Chương 0: Hướng dẫn chung
+                  <i class="fa fa-angle-down"></i>
+                  <p class="text-left">4 / 4 | 9 phút</p>
+                </a>
+              <div class="collapse" id="collapse">
+                <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+                <a href="">2. Lộ trình học tập</a>
+                <a href="">3. Hướng dẫn giải nén tài liệu</a>
+                <a href="">4. Tham gia nhóm học tập trên Facebook</a>
               </div>
             </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
+            <div class="item2" >
+              <a class="btn " data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Chương 0: Hướng dẫn chung
+                <i class="fa fa-angle-down"></i>
+                <p class="text-left">4 / 4 | 9 phút</p>
+              </a>
+            <div class="collapse" id="collapse1">
+              <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+              <a href="">2. Lộ trình học tập</a>
+              <a href="">3. Hướng dẫn giải nén tài liệu</a>
+              <a href="">4. Tham gia nhóm học tập trên Facebook</a>
+            </div>
+          </div>
+          <div class="item2" >
+            <a class="btn " data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Chương 0: Hướng dẫn chung
+              <i class="fa fa-angle-down"></i>
+              <p class="text-left">4 / 4 | 9 phút</p>
+            </a>
+          <div class="collapse" id="collapse2">
+            <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+            <a href="">2. Lộ trình học tập</a>
+            <a href="">3. Hướng dẫn giải nén tài liệu</a>
+            <a href="">4. Tham gia nhóm học tập trên Facebook</a>
+          </div>
+        </div>
+               <div class="item2" >
+                  <a class="btn " data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Chương 0: Hướng dẫn chung
+                    <i class="fa fa-angle-down"></i>
+                    <p class="text-left">4 / 4 | 9 phút</p>
+                  </a>
+                <div class="collapse" id="collapse3">
+                  <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+                  <a href="">2. Lộ trình học tập</a>
+                  <a href="">3. Hướng dẫn giải nén tài liệu</a>
+                  <a href="">4. Tham gia nhóm học tập trên Facebook</a>
                 </div>
+              </div>
+               <div class="item2" >
+                  <a class="btn " data-toggle="collapse" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Chương 0: Hướng dẫn chung
+                    <i class="fa fa-angle-down"></i>
+                    <p class="text-left">4 / 4 | 9 phút</p>
+                  </a>
+                <div class="collapse" id="collapse4">
+                  <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+                  <a href="">2. Lộ trình học tập</a>
+                  <a href="">3. Hướng dẫn giải nén tài liệu</a>
+                  <a href="">4. Tham gia nhóm học tập trên Facebook</a>
+                </div>
+              </div>
+               <div class="item2" >
+                  <a class="btn " data-toggle="collapse" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Chương 0: Hướng dẫn chung
+                    <i class="fa fa-angle-down"></i>
+                    <p class="text-left">4 / 4 | 9 phút</p>
+                  </a>
+                <div class="collapse" id="collapse5">
+                  <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+                  <a href="">2. Lộ trình học tập</a>
+                  <a href="">3. Hướng dẫn giải nén tài liệu</a>
+                  <a href="">4. Tham gia nhóm học tập trên Facebook</a>
+                </div>
+              </div>
+               <div class="item2" >
+                  <a class="btn " data-toggle="collapse" href="#collapse6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Chương 0: Hướng dẫn chung
+                    <i class="fa fa-angle-down"></i>
+                    <p class="text-left">4 / 4 | 9 phút</p>
+                  </a>
+                <div class="collapse" id="collapse6">
+                  <a href="">1. Hướng dẫn sử dụng giao diện học tập</a>
+                  <a href="">2. Lộ trình học tập</a>
+                  <a href="">3. Hướng dẫn giải nén tài liệu</a>
+                  <a href="">4. Tham gia nhóm học tập trên Facebook</a>
+                </div>
+              </div> 
+              <div class="item2" >
+                <a class="btn " data-toggle="collapse" href="#collapse7" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Chương 0: Hướng dẫn chung
+                  <i class="fa fa-angle-down"></i>
+                  <p class="text-left">4 / 4 | 9 phút</p>
+                </a>
+              <div class="collapse" id="collapse7">
+                <p>1. Hướng dẫn sử dụng giao diện học tập</p>
+                <p>2. Lộ trình học tập</p>
+                <p>3. Hướng dẫn giải nén tài liệu</p>
+                <p>4. Tham gia nhóm học tập trên Facebook</p>
               </div>
             </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
+            
             </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
-            </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
-            </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
-            </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
-            </div>
-            <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
-            </div> <div class="item2">
-              <div class="dropdown">
-                <p class="btn dropdown-toggle" type="text" id="dropdownMenuButton" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Chương 0: Hướng dẫn chung
-                  <p class="p2">4 / 4 | 9 phút</p>
-                </p>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="position: absolute; will-change: transform; top: 16px; left: 0px; transform: translate3d(0px, 38px, 0px);">
-                  <a class="dropdown-item" href="#">Hướng dẫn sử dụng giao diện học tập</a>
-                  <a class="dropdown-item" href="#">Lộ trình học tập</a>
-                  <a class="dropdown-item" href="#">Hướng dẫn giải nén tài liệu</a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="feedback"></section>
-  <section id="comment"></section>
-  <footer></footer>
+  <section id="feedback">
+    <div class="container-lg ">
+      <div class="content">
+        <div class="item-content">
+          <i class="fa fa-thumbs-up"></i>
+          <h4>Đánh giá khóa học</h4>
+        </div>
+        <div class="star">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+        
+      </div>
+    </div>
+    
+  </section>
+  <section id="comment">
+    <div class="content container-lg">
+      <h1>Hỏi Đáp</h1>
+      <h3>Đặt câu hỏi về bài giảng</h3>
+      <div class="item-content">
+        <div class="input-group flex-nowrap">
+          <img class="img-fluid" src="../img/user.png" alt="">
+          <input type="text" class="form-control" placeholder="Nội dung thảo luận" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+      </div>
+      <div class="content-list"> 
+       <div class="item1">
+         <div class="d-flex">
+          <div class="img">
+            <img class="img-fluid" src="../img/user.png" alt="">
+          </div>
+          <div class="text">
+            <p>Kim Đại Pháp <span>3 giờ trước</span></p>
+            <p>Cho em hỏi trong Chuyên Đề 4 -sheet DataBanHang - câu 20 yêu cầu xác định "đơn giá" tại cột E3.</p>
+            <p>Em áp dụng hàm Vlookup và Match để gọi đơn giá theo: =+VLOOKUP(B3,HH_BangDanhMuc,MATCH(B3,HH_MaHang,0)). nhưng không ra được dữ liệu.</p>
+            <p>Nhờ thầy hỗ trợ ạ</p>
+            <div class="like">
+              <i class="bi bi-hand-thumbs-up"></i><a href=""> Like</a>
+              <i class="bi bi-hand-thumbs-down ml-1"></i> <a href=""> Dislike</a>
+            </div>
+          </div>
+         </div>
+        <div class="input-group flex-nowrap">
+          <img class="img-fluid" src="../img/user.png" alt="">
+          <input type="text" class="form-control" placeholder="Nội dung thảo luận" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+       </div>
+       <div class="item2"></div>
+      </div>
+      <div class="content-list"> 
+        <div class="item1">
+          <div class="d-flex">
+           <div class="img">
+             <img class="img-fluid" src="../img/user.png" alt="">
+           </div>
+           <div class="text">
+             <p>Kim Đại Pháp <span>3 giờ trước</span></p>
+             <p>Cho em hỏi trong Chuyên Đề 4 -sheet DataBanHang - câu 20 yêu cầu xác định "đơn giá" tại cột E3.</p>
+             <p>Em áp dụng hàm Vlookup và Match để gọi đơn giá theo: =+VLOOKUP(B3,HH_BangDanhMuc,MATCH(B3,HH_MaHang,0)). nhưng không ra được dữ liệu.</p>
+             <p>Nhờ thầy hỗ trợ ạ</p>
+             <div class="like">
+               <i class="bi bi-hand-thumbs-up"></i><a href=""> Like</a>
+               <i class="bi bi-hand-thumbs-down ml-1"></i> <a href=""> Dislike</a>
+             </div>
+           </div>
+          </div>
+         <div class="input-group flex-nowrap">
+           <img class="img-fluid" src="../img/user.png" alt="">
+           <input type="text" class="form-control" placeholder="Nội dung thảo luận" aria-label="Username" aria-describedby="addon-wrapping">
+         </div>
+        </div>
+        <div class="item2"></div>
+       </div>
+       <div class="content-list"> 
+        <div class="item1">
+          <div class="d-flex">
+           <div class="img">
+             <img class="img-fluid" src="../img/user.png" alt="">
+           </div>
+           <div class="text">
+             <p>Kim Đại Pháp <span>3 giờ trước</span></p>
+             <p>Cho em hỏi trong Chuyên Đề 4 -sheet DataBanHang - câu 20 yêu cầu xác định "đơn giá" tại cột E3.</p>
+             <p>Em áp dụng hàm Vlookup và Match để gọi đơn giá theo: =+VLOOKUP(B3,HH_BangDanhMuc,MATCH(B3,HH_MaHang,0)). nhưng không ra được dữ liệu.</p>
+             <p>Nhờ thầy hỗ trợ ạ</p>
+             <div class="like">
+               <i class="bi bi-hand-thumbs-up"></i><a href=""> Like</a>
+               <i class="bi bi-hand-thumbs-down ml-1"></i> <a href=""> Dislike</a>
+             </div>
+           </div>
+          </div>
+         <div class="input-group flex-nowrap">
+           <img class="img-fluid" src="../img/user.png" alt="">
+           <input type="text" class="form-control" placeholder="Nội dung thảo luận" aria-label="Username" aria-describedby="addon-wrapping">
+         </div>
+        </div>
+        <div class="item2"></div>
+       </div>
+       <div class="content-list"> 
+        <div class="item1">
+          <div class="d-flex">
+           <div class="img">
+             <img class="img-fluid" src="../img/user.png" alt="">
+           </div>
+           <div class="text">
+             <p>Kim Đại Pháp <span>3 giờ trước</span></p>
+             <p>Cho em hỏi trong Chuyên Đề 4 -sheet DataBanHang - câu 20 yêu cầu xác định "đơn giá" tại cột E3.</p>
+             <p>Em áp dụng hàm Vlookup và Match để gọi đơn giá theo: =+VLOOKUP(B3,HH_BangDanhMuc,MATCH(B3,HH_MaHang,0)). nhưng không ra được dữ liệu.</p>
+             <p>Nhờ thầy hỗ trợ ạ</p>
+             <div class="like">
+               <i class="bi bi-hand-thumbs-up"></i><a href=""> Like</a>
+               <i class="bi bi-hand-thumbs-down ml-1"></i> <a href=""> Dislike</a>
+             </div>
+           </div>
+          </div>
+         <div class="input-group flex-nowrap">
+           <img class="img-fluid" src="../img/user.png" alt="">
+           <input type="text" class="form-control" placeholder="Nội dung thảo luận" aria-label="Username" aria-describedby="addon-wrapping">
+         </div>
+        </div>
+        <div class="item2"></div>
+       </div>
+       <div class="content-list"> 
+        <div class="item1">
+          <div class="d-flex">
+           <div class="img">
+             <img class="img-fluid" src="../img/user.png" alt="">
+           </div>
+           <div class="text">
+             <p>Kim Đại Pháp <span>3 giờ trước</span></p>
+             <p>Cho em hỏi trong Chuyên Đề 4 -sheet DataBanHang - câu 20 yêu cầu xác định "đơn giá" tại cột E3.</p>
+             <p>Em áp dụng hàm Vlookup và Match để gọi đơn giá theo: =+VLOOKUP(B3,HH_BangDanhMuc,MATCH(B3,HH_MaHang,0)). nhưng không ra được dữ liệu.</p>
+             <p>Nhờ thầy hỗ trợ ạ</p>
+             <div class="like">
+               <i class="bi bi-hand-thumbs-up"></i><a href=""> Like</a>
+               <i class="bi bi-hand-thumbs-down ml-1"></i> <a href=""> Dislike</a>
+             </div>
+           </div>
+          </div>
+         <div class="input-group flex-nowrap">
+           <img class="img-fluid" src="../img/user.png" alt="">
+           <input type="text" class="form-control" placeholder="Nội dung thảo luận" aria-label="Username" aria-describedby="addon-wrapping">
+         </div>
+        </div>
+        <div class="item2"></div>
+       </div>
+      
+    </div>
+  </section>
+  <footer>
+    <section id="footer">
+      <div class="content">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <p class="font-weight-bold">HỖ TRỢ KHÁCH HÀNG</p>
+            <p>Email: <a href="">hotro@gitiho.com</a></p>
+            <p>Hotline: <a href="">0101010010</a></p>
+            <p>(Giờ làm việc: 8h30 - 18h, nghỉ chiều thứ 7 và CN)</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <p class="font-weight-bold">VỀ GITIHO</p>
+            <p><a href="">Giới thiệu về Gitiho</a></p>
+            <p><a href="">Tuyển dụng giảng viên</a></p>
+            <p><a href="">Tuyển dụng nhân sự</a></p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <p class="font-weight-bold">HỢP TÁC VÀ LIÊN KẾT</p>
+            <p><a href="">Dạy học trên Gitiho</a></p>
+            <p><a href="">Lazi.vn</a></p>
+            <p><a href="">Topcv.vn
+              </a></p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <p class="font-weight-bold">KẾT NỐI VỚI CHÚNG TÔI</p>
+            <p><a href=""><i class="fab fa-facebook"></i><i class="fab fa-youtube mx-5"></i><i
+                  class="fab fa-instagram"></i></a></p>
+            <p><a href=""><img class="img-fluid w-50" src="./img/logo-gov.png" alt=""></a></p>
+          </div>
+          <p class="mt-3"> <i class="fa fa-map-marker-alt"></i><span class="font-weight-bold"> Địa chỉ văn phòng: </span>
+            Tầng 2&3, Lô B7&B8, Ngách 1, Ngõ 187 Đường Nguyễn Tuân, Phường Nhân Chính, Quận Thanh Xuân, Thành phố Hà Nội,
+            Việt Nam</p>
+        </div>
+      </div>
+    </section>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
