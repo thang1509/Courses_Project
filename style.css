@@ -443,7 +443,8 @@ header .item_right .item3:hover i {
 #corp .content p{
     font-size: 30px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
+    color: #334d6e;
 }
 #corp .item img{
     margin: auto;
@@ -453,6 +454,7 @@ header .item_right .item3:hover i {
         font-size: 10px;
     }
 }
+
 /* FOOTER */
 #footer {
     padding: 30px 0;
