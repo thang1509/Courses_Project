@@ -323,6 +323,9 @@ header .item_right .item3:hover i {
     margin: auto;
     margin-top: 30px;
 }
+#courses .res .nav-link{
+    color: blackgit;
+}
 #courses .res .intro .text {
     display: flex;
     justify-content: center;
