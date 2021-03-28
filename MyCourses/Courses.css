@@ -32,8 +32,7 @@ body {
     margin-right: 5px;
 }
 #header .navbar-user .dropdown-menu{
-    left: auto;
-    
+    left: auto; 
 }
 #header .dropdown-account{
     color: #334d6e;
