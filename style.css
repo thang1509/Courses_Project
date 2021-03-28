@@ -416,9 +416,6 @@ header .item_right .item3:hover i {
 #corp{
     margin: 50px 0;
 }
-#corp h1{
-    font-weight: bold;
-}
 #corp .content .corp img{
     width: 200px;
 }
@@ -427,9 +424,18 @@ header .item_right .item3:hover i {
     justify-content: space-around;
     margin-top: 30px;
 }
-#corp .content h1{
-    font-size: 2rem;
+#corp .content p{
+    font-size: 30px;
     text-align: center;
+    font-weight: bold;
+}
+#corp .item img{
+    margin: auto;
+}
+@media screen and(max-width:1000px){
+    #corp p{
+        font-size: 10px;
+    }
 }
 /* FOOTER */
 #footer {
