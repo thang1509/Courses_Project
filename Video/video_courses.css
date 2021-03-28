@@ -8,7 +8,14 @@
   body {
     font-family: "Roboto", sans-serif;
   }
-
+p,a,button{
+  color: #334d6e
+  ;
+}
+.collapse{
+  color: #334d6e
+  ;
+}
   #video_courses{
     margin-top: 80px;
   }
@@ -130,12 +137,15 @@ height: 500px;
   margin-left: 25%;
 }
 #video_courses .right .item2 .collapse a{
-  display: block;
-  color: black;
+  color: #334d6e
+  ;
   text-decoration: none;
+  /* padding: 10px 0; */
+}
+#video_courses .right .item2 .collapse a p{
   padding: 10px 0;
 }
-#video_courses .right .item2 .collapse a:hover{
+#video_courses .right .item2 .collapse a:hover p{
   background: #ffe6ee;
 }
 @media screen and (max-width:991px){

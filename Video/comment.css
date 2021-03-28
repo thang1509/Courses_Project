@@ -8,6 +8,9 @@
   body {
     font-family: "Roboto", sans-serif;
   }
+  h1,h3{
+    color: #334d6e;
+  }
   #comment .content .item-content{
     background: #f0f2f5;
   }

@@ -35,9 +35,8 @@ align-items: center;
     align-items: center;
     
   }
-  #feedback .content  .star{
-    color: rgb(238, 238, 51);
-    margin-right: 100px;
+  h4{
+    color: #334d6e
   }
   @media screen and (max-width:800px){
     #feedback .content{
@@ -46,9 +45,5 @@ align-items: center;
     #feedback .content .item-content{
       justify-content: center;
     }
-    #feedback .content .star{
-      display: flex;
-      justify-content: center;
-      margin-right: 0;
-    }
+
   }
