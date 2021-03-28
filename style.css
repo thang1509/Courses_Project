@@ -140,7 +140,8 @@ header .item_right .item3:hover i {
         transition: all .3s;
     }
     .navbar-nav{
-        margin-left: 50%;
+        margin: 0 auto;
+        text-align: center;
     }
   }
 
