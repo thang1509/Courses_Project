@@ -52,16 +52,16 @@ body {
     margin-bottom: 30px;
 }
 .registeredCourses .card {
-    margin:20px 10px;
-    padding: 0;
+    padding: 20px 10px;
     background: #fff;
-    border: 1px solid #d8e9ff;
-    box-shadow: 0 4px 12px #dde1ee;
-    border-radius: 5px;
+    border:none;
 }
 .registeredCourses .card a {
     text-decoration: none;
     color: #334d6e;
+    border: 1px solid #d8e9ff;
+    box-shadow: 0 4px 12px #dde1ee;
+    border-radius: 5px;
 }
 .registeredCourses .card h5{
     font-size: 14px;
