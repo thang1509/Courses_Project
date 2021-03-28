@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    font-family: "Roboto", sans-serif;
-  }
- 
-#header .navbar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header .navbar {
   box-shadow: 0 1px 8px rgba(89, 120, 150, 0.2);
   height: 80px;
   background-color: #fff;
@@ -20,28 +20,27 @@
   bottom: 0;
   z-index: 1;
 }
-#header .navbar-brand img{
+#header .navbar-brand img {
   width: 100px;
 }
-#header .navbar-user a{
+#header .navbar-user a {
   text-decoration: none;
   color: #334d6e;
   font-size: 16px;
   margin-bottom: 0;
 }
-#header .navbar-user a:hover{
+#header .navbar-user a:hover {
   color: #fca400;
 }
-#header .navbar-user i{
+#header .navbar-user i {
   font-size: 24px;
   margin-right: 5px;
 }
-#header .navbar-user .dropdown-menu{
+#header .navbar-user .dropdown-menu {
   left: auto;
   z-index: 999;
-  
 }
-#header .dropdown-account{
+#header .dropdown-account {
   color: #334d6e;
   display: flex;
   justify-content: center;

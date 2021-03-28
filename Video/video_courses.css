@@ -1,91 +1,91 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    font-family: "Roboto", sans-serif;
-  }
-p,a,button{
-  color: #334d6e
-  ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.collapse{
-  color: #334d6e
-  ;
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
 }
-  #video_courses{
-    margin-top: 80px;
-  }
-#video_courses img{
+p,
+a,
+button {
+  color: #334d6e;
+}
+.collapse {
+  color: #334d6e;
+}
+#video_courses {
+  margin-top: 80px;
+}
+#video_courses img {
   width: 100%;
 }
 
-#video_courses h2{
+#video_courses h2 {
   color: white;
   font-size: 1rem;
 }
 #video_courses .content {
   overflow: hidden;
 }
-#video_courses .content .left p{
+#video_courses .content .left p {
   color: whitesmoke;
   opacity: 0.8;
   margin-bottom: 20px;
 }
 
-#video_courses .content .left .text{
+#video_courses .content .left .text {
   display: flex;
   justify-content: space-between;
 }
-#video_courses .content .left{
+#video_courses .content .left {
   background-color: black;
 }
-#video_courses .content .left i{
+#video_courses .content .left i {
   color: white;
   font-size: 2rem;
   opacity: 0.8;
 }
-#video_courses .content .left i:hover{
+#video_courses .content .left i:hover {
   color: #d91b5c;
 }
-#video_courses .left .img{
+#video_courses .left .img {
   position: relative;
 }
-#video_courses .left .content-item .img i{
+#video_courses .left .content-item .img i {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 3.5rem;
   opacity: 0.8;
 }
-#video_courses .left .content-item .img:hover i{
+#video_courses .left .content-item .img:hover i {
   color: red;
   opacity: 1;
 }
-#video_courses .right .content-item{
+#video_courses .right .content-item {
   border-right: 1px solid gray;
 }
-#video_courses .right .content-item .item1 .text{
+#video_courses .right .content-item .item1 .text {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 10px;
 }
-#video_courses p{
+#video_courses p {
   margin-bottom: 0px;
 }
-#video_courses .right .item1 .text i{
+#video_courses .right .item1 .text i {
   font-size: 2rem;
   margin-right: 10px;
 }
-#video_courses .right .content-item .item1.text .textP p{
+#video_courses .right .content-item .item1.text .textP p {
   margin-bottom: 0px;
 }
-#video_courses .right .content-item .item1{
+#video_courses .right .content-item .item1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,17 +93,18 @@ p,a,button{
   box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
   padding-right: 20px;
 }
-.col-lg-8,.col-lg-4{
+.col-lg-8,
+.col-lg-4 {
   padding: 0px;
 }
-#video_courses .right .item2 .p2{
-  padding: .375rem .75rem;
+#video_courses .right .item2 .p2 {
+  padding: 0.375rem 0.75rem;
   line-height: 0px;
   margin-bottom: 5px;
 }
 #scroll {
-overflow-y: scroll;
-height: 500px;
+  overflow-y: scroll;
+  height: 500px;
 }
 /* #video_courses .right .item2 .dropdown{
   border-bottom: 1px solid gray ;
@@ -121,10 +122,11 @@ height: 500px;
   transform: translate3d(0px, 38px, 0px);
   margin-top: 18px;
 } */
-.btn.focus, .btn:focus{
+.btn.focus,
+.btn:focus {
   box-shadow: none;
 }
-#video_courses .right .item2 .btn{
+#video_courses .right .item2 .btn {
   background: #f4f4f4;
   display: block;
   border-radius: 0%;
@@ -133,23 +135,22 @@ height: 500px;
   border-top: 1px solid grey;
   font-size: 0.9rem;
 }
-#video_courses .right .item2 .btn i{
+#video_courses .right .item2 .btn i {
   margin-left: 25%;
 }
-#video_courses .right .item2 .collapse a{
-  color: #334d6e
-  ;
+#video_courses .right .item2 .collapse a {
+  color: #334d6e;
   text-decoration: none;
   /* padding: 10px 0; */
 }
-#video_courses .right .item2 .collapse a p{
+#video_courses .right .item2 .collapse a p {
   padding: 10px 0;
 }
-#video_courses .right .item2 .collapse a:hover p{
+#video_courses .right .item2 .collapse a:hover p {
   background: #ffe6ee;
 }
-@media screen and (max-width:991px){
-  #video_courses .right .item2 .btn i{
+@media screen and (max-width: 991px) {
+  #video_courses .right .item2 .btn i {
     margin-left: 90%;
   }
   #video_courses {

@@ -1,82 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    font-family: "Roboto", sans-serif;
-  }
-  h1,h3{
-    color: #334d6e;
-  }
-  #comment .content .item-content{
-    background: #f0f2f5;
-  }
-  #comment .content .item-content {
-    width: 80%;
-    border-radius: 8px;  
-  }
-  #comment .content .item-content img{
-    width: 50px;
-    margin-right: 10px;
-    
-  }
-  #comment .content .item-content .input-group{
-    padding: 20px 10px  ;
-    align-items: center;
-  }
-  #comment .content .content-list{
-    width: 80%;
-    border: 1px solid gray  ;
-    margin-top: 20px;
-    border-radius: 8px;
-  }
-  #comment .content-list .item1 {
-    margin: 30px;
-    line-height: 20px;
-  }
-  #comment .content-list .item1 .img{
-    margin-right: 20px;
-  }
-  #comment .content-list .item1 img{
-    width: 80px;
-  }
-  #comment .content-list .item1 .text{
-    overflow: hidden;
-  }
-  #comment .content-list .item1 .text p:first-child{
-    font-weight: bold;
-  }
-  #comment .content-list .item1 .text p{
-    opacity: 0.8;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  #comment .content-list .item1 .text span{
-    opacity: 0.8;
-    font-weight: 500;
-    font-size: 0.8rem;
-    margin-left: 5px;
- }
- #comment .content-list .item1 .like a{
-   color: black;
-   font-size: 0.9rem;
- }
- #comment .content-list .item1 .like i{
-   font-size: 0.9rem;
- }
- #comment .content-list .input-group{
-   margin-top: 20px;
-   align-items: center;
- }
- #comment .content-list .input-group img{
-   width: 50px;
-   margin-right: 10px;
- }
- .respon{
-   margin-top: 20px;
- }
- .respon img{
-border-radius: 50%;
- }
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h3 {
+  color: #334d6e;
+}
+#comment .content .item-content {
+  background: #f0f2f5;
+}
+#comment .content .item-content {
+  width: 80%;
+  border-radius: 8px;
+}
+#comment .content .item-content img {
+  width: 50px;
+  margin-right: 10px;
+}
+#comment .content .item-content .input-group {
+  padding: 20px 10px;
+  align-items: center;
+}
+#comment .content .content-list {
+  width: 80%;
+  border: 1px solid gray;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+#comment .content-list .item1 {
+  margin: 30px;
+  line-height: 20px;
+}
+#comment .content-list .item1 .img {
+  margin-right: 20px;
+}
+#comment .content-list .item1 img {
+  width: 80px;
+}
+#comment .content-list .item1 .text {
+  overflow: hidden;
+}
+#comment .content-list .item1 .text p:first-child {
+  font-weight: bold;
+}
+#comment .content-list .item1 .text p {
+  opacity: 0.8;
+}
+
+#comment .content-list .item1 .text span {
+  opacity: 0.8;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+#comment .content-list .item1 .like a {
+  color: black;
+  font-size: 0.9rem;
+}
+#comment .content-list .item1 .like i {
+  font-size: 0.9rem;
+}
+#comment .content-list .input-group {
+  margin-top: 20px;
+  align-items: center;
+}
+#comment .content-list .input-group img {
+  width: 50px;
+  margin-right: 10px;
+}
+.respon {
+  margin-top: 20px;
+}
+.respon img {
+  border-radius: 50%;
+}
