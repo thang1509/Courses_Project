@@ -193,12 +193,27 @@ header .item_right .item3:hover i {
         height: auto;
     }
 }
+@media screen and (max-width: 992px) {
+    #carousel .carousel_bottom {
+        height: 150px;
+    }
+    #carousel .col-12{
+        margin-bottom: 10px;
+    }
+}
 @media screen and (max-width: 768px) {
     #carousel .content .img .text h1 {
         font-size: 50px;
     }
     #carousel .content .img .text p {
         font-size: 13px;
+    }
+    #carousel .carousel_bottom {
+        height: 280px;
+    }
+    #carousel .col-12{
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
 
